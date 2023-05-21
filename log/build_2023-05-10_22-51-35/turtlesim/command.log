@@ -1,0 +1,4 @@
+Invoking command in '/home/dl/ros2_ws/build/turtlesim': /usr/bin/cmake --build /home/dl/ros2_ws/build/turtlesim -- -j16 -l16
+Invoked command in '/home/dl/ros2_ws/build/turtlesim' returned '0': /usr/bin/cmake --build /home/dl/ros2_ws/build/turtlesim -- -j16 -l16
+Invoking command in '/home/dl/ros2_ws/build/turtlesim': /usr/bin/cmake --install /home/dl/ros2_ws/build/turtlesim
+Invoked command in '/home/dl/ros2_ws/build/turtlesim' returned '0': /usr/bin/cmake --install /home/dl/ros2_ws/build/turtlesim

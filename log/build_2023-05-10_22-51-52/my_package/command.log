@@ -1,0 +1,2 @@
+Invoking command in '/home/dl/ros2_ws/build/my_package': /usr/bin/cmake --build /home/dl/ros2_ws/build/my_package -- -j16 -l16
+Invoked command in '/home/dl/ros2_ws/build/my_package' returned '2': /usr/bin/cmake --build /home/dl/ros2_ws/build/my_package -- -j16 -l16

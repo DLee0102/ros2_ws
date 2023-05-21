@@ -1,0 +1,2 @@
+Invoking command in '/home/dl/ros2_ws/build/cpp_pubsub': /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_pubsub -- -j16 -l16
+Invoked command in '/home/dl/ros2_ws/build/cpp_pubsub' returned '2': /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_pubsub -- -j16 -l16

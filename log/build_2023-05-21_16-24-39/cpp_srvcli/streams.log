@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/dl/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dl/ros2_ws/install/cpp_srvcli
+[0.053s] -- The C compiler identification is GNU 11.3.0
+[0.111s] -- The CXX compiler identification is GNU 11.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.408s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.449s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.650s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.682s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.694s] -- Looking for pthread.h
+[0.737s] -- Looking for pthread.h - found
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.781s] -- Found Threads: TRUE  
+[0.909s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.067s] -- Configuring done
+[1.075s] -- Generating done
+[1.076s] -- Build files have been written to: /home/dl/ros2_ws/build/cpp_srvcli
+[1.084s] Invoked command in '/home/dl/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dl/ros2_ws/install/cpp_srvcli
+[1.085s] Invoking command in '/home/dl/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[1.115s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.115s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.616s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.727s] [100%] [32m[1mLinking CXX executable client[0m
+[3.729s] [100%] Built target server
+[3.826s] [100%] Built target client
+[3.832s] Invoked command in '/home/dl/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[3.854s] Invoking command in '/home/dl/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_srvcli
+[3.858s] -- Install configuration: ""
+[3.858s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.859s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.859s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.860s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.860s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.861s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.861s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.861s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.861s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.861s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.863s] Invoked command in '/home/dl/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_srvcli

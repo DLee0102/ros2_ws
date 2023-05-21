@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/dl/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.678s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.835s] [ 75%] Built target talker
+[6.742s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.035s] [100%] Built target listener
+[7.044s] Invoked command in '/home/dl/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[7.069s] Invoking command in '/home/dl/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_pubsub
+[7.075s] -- Install configuration: ""
+[7.075s] -- Installing: /home/dl/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.077s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.077s] -- Installing: /home/dl/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.080s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.081s] -- Installing: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.081s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.082s] Invoked command in '/home/dl/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_pubsub
