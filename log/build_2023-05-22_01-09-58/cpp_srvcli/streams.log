@@ -1,0 +1,46 @@
+[0.012s] Invoking command in '/home/dl/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.220s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.410s] -- Found tutorial_interfaces: 0.0.0 (/home/dl/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.568s] -- Configuring done
+[0.581s] -- Generating done
+[0.583s] -- Build files have been written to: /home/dl/ros2_ws/build/cpp_srvcli
+[0.610s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.611s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.314s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.422s] [ 75%] Built target server
+[3.465s] [100%] [32m[1mLinking CXX executable client[0m
+[3.583s] [100%] Built target client
+[3.591s] Invoked command in '/home/dl/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[3.617s] Invoking command in '/home/dl/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_srvcli
+[3.623s] -- Install configuration: ""
+[3.623s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.624s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.624s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.625s] -- Set runtime path of "/home/dl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.625s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.625s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.625s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.625s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.625s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.625s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.625s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.625s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.625s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.626s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.626s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.626s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.626s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.626s] -- Up-to-date: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.626s] -- Installing: /home/dl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.628s] Invoked command in '/home/dl/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_srvcli
