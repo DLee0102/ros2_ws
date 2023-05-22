@@ -1,0 +1,6 @@
+Invoking command in '/home/dl/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/dl/ros2_ws/install/cpp_parameters
+Invoked command in '/home/dl/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/dl/ros2_ws/install/cpp_parameters
+Invoking command in '/home/dl/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_parameters -- -j16 -l16
+Invoked command in '/home/dl/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ros2_ws/build/cpp_parameters -- -j16 -l16
+Invoking command in '/home/dl/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_parameters
+Invoked command in '/home/dl/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ros2_ws/build/cpp_parameters
